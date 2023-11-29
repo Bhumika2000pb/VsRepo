@@ -6,17 +6,10 @@ using System.Threading.Tasks;
 
 namespace UILayer
 {
-    public class Program
+    internal class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("welcome to Devops tool with modification");
-            Console.ReadKey();
-        }
-
-        static void show()
-        {
-            Console.WriteLine("show fuction called");
         }
     }
 }
