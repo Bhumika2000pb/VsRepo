@@ -13,5 +13,10 @@ namespace UILayer
             Console.WriteLine("welcome to Devops tool with modification");
             Console.ReadKey();
         }
+
+        static void show()
+        {
+            Console.WriteLine("show function called");
+        }
     }
 }
