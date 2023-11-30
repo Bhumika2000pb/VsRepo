@@ -19,5 +19,10 @@ namespace UILayer
         {
             Console.WriteLine("show function called");
         }
+
+        public static int square(int n)
+        {
+            return n * n;
+        }
     }
 }
